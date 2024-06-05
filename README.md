@@ -31,29 +31,29 @@ A well-educated population contributes to a more stable and cohesive society, su
 ### Case Study: Brazil
 Brazil's case demonstrates how emerging economies can develop high-ranking universities despite challenges. Factors contributing to the success of universities like the University of São Paulo (USP) and the State University of Campinas (Unicamp) include targeted investments, strong government policies, international collaborations, and a cultural emphasis on research and development.
 
-### Instructions
+## Instructions
 1.	Python Analysis: The Python scripts used for data cleaning, analysis, and visualization are included in the jupyter notebook. Execute these scripts to reproduce the analysis.
 2.	Tableau Dashboards: The Tableau dashboards provide interactive visualizations of the data. Open the .twb files in Tableau to explore the visualizations.
 
-Data Sources
-•	QS World University Rankings: [2024](https://www.topuniversities.com/world-university-rankings/2024)
-•	Population: [Population Estimates](https://ourworldindata.org/grapher/population-with-un-projections?country=BRA~PRT~AGO~MOZ~CPV~GNB~STP~TLS )
-•	GDP per capita: [GDP per Capita](https://ourworldindata.org/grapher/gdp-per-capita-maddison)
-•	Poverty: [Share of Population in Extreme Poverty](https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=BRA~PRT )
-•	Human Development Index (HDI): [HDI Data](https://ourworldindata.org/grapher/human-development-index)
-•	Economic Inequality:[Gini Index](https://ourworldindata.org/grapher/economic-inequality-gini-index?time=2023&country=~BRA)
-•	Education Inequality: [Inequality in Education](https://ourworldindata.org/grapher/inequality-in-education)
-•	Learning-Adjusted Years of Schooling: [Learning-Adjusted Years of Schooling](https://ourworldindata.org/grapher/learning-adjusted-years-of-school-lays)
-•	Government Expenditure on Education: [Government Expenditure](https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp)
-•	Research and Development (R&D) Spending: [Research Spending](https://ourworldindata.org/grapher/research-spending-gdp)
-•	Scientific Publications: [Scientific and Technical Journal Articles](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles)
+### Data Sources
+QS World University Rankings: [2024](https://www.topuniversities.com/world-university-rankings/2024)
+Population: [Population Estimates](https://ourworldindata.org/grapher/population-with-un-projections?country=BRA~PRT~AGO~MOZ~CPV~GNB~STP~TLS )
+GDP per capita: [GDP per Capita](https://ourworldindata.org/grapher/gdp-per-capita-maddison)
+Poverty: [Share of Population in Extreme Poverty](https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=BRA~PRT )
+Human Development Index (HDI): [HDI Data](https://ourworldindata.org/grapher/human-development-index)
+Economic Inequality:[Gini Index](https://ourworldindata.org/grapher/economic-inequality-gini-index?time=2023&country=~BRA)
+Education Inequality: [Inequality in Education](https://ourworldindata.org/grapher/inequality-in-education)
+Learning-Adjusted Years of Schooling: [Learning-Adjusted Years of Schooling](https://ourworldindata.org/grapher/learning-adjusted-years-of-school-lays)
+Government Expenditure on Education: [Government Expenditure](https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp)
+Research and Development (R&D) Spending: [Research Spending](https://ourworldindata.org/grapher/research-spending-gdp)
+Scientific Publications: [Scientific and Technical Journal Articles](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles)
 
-Requirements
-•	Python 3.x
-•	Tableau Desktop
-•	Libraries: pandas, numpy, matplotlib, seaborn
+### Requirements
+Python 3.x
+Tableau Desktop
+Libraries: pandas, numpy, matplotlib, seaborn
 
-How to Run
+### How to Run
 1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn
 2.	Execute the Python scripts in the scripts directory.
 3.	Open the Tableau dashboard files to explore the visualizations.
