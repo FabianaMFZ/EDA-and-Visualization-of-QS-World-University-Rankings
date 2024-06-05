@@ -49,9 +49,9 @@ Research and Development (R&D) Spending: [Research Spending](https://ourworldind
 Scientific Publications: [Scientific and Technical Journal Articles](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles)
 
 ### Requirements
-Python 3.x
-Tableau Desktop
-Libraries: pandas, numpy, matplotlib, seaborn
+Python 3.x ;
+Tableau Desktop ;
+Libraries: pandas, numpy, matplotlib, seaborn.
 
 ### How to Run
 1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn
