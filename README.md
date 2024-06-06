@@ -56,4 +56,4 @@ Libraries: pandas, numpy, matplotlib, seaborn.
 ### How to Run
 1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn
 2.	Execute the Python scripts in the scripts directory.
-3.	Open the Tableau dashboard files to explore the visualizations.
+3.	Open the [Tableau dashboard](https://public.tableau.com/views/AcademicPerformance_17171028986820/WherearetheTop500UniversitiesintheWorld?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) files to explore the visualizations.
