@@ -1,9 +1,22 @@
 # Academic Performance vs. Social, Economical and Educational Indicators
 
-This README accompanies a data analysis project utilizing Python and Tableau to explore the relationship between universities, economic development, and social indicators. The analysis includes various datasets and visualizations to support the findings presented. This analysis aims to provide a comprehensive understanding of the factors contributing to the development of top universities and their impact on economic and social development.
+This README accompanies a data analysis project utilizing Python and Tableau to explore the relationship between universities' international rankings, economic development, and social indicators. The analysis includes various datasets and visualizations to support the findings presented. This analysis aims to provide a comprehensive understanding of the factors contributing to the development of top universities and their impact on economic and social development.
 
 ## QS World University Rankings 2024
 The QS World University Rankings is a comprehensive ranking of 1,500 institutions across 104 locations, emphasizing employability and sustainability. The top universities in the world include both public and private institutions, with notable examples in the United States, United Kingdom, Europe, and Asia. In Latin America, top universities are predominantly public institutions.
+
+Their ranking includes the following scoring metrics:
+1. AR - Academic Reputation
+2. ER - Employer Reputation
+3. SUS – Sustainability
+4. GER - Employment outcomes
+5. FSR - Faculty Student Ratio 
+6. CPF - Citations per Faculty 
+7. IFR - International Faculty Ratio
+8. ISR - International Students Ratio 
+9. IRN - International Research Network 
+
+All universities then receive an Overall Score - which is a weighted average of the other grades - and are finally ranked according to this final score.
 
 ### Economic Development and Universities
 The relationship between universities and a country's wealth is multifaceted:
@@ -31,29 +44,30 @@ A well-educated population contributes to a more stable and cohesive society, su
 ### Case Study: Brazil
 Brazil's case demonstrates how emerging economies can develop high-ranking universities despite challenges. Factors contributing to the success of universities like the University of São Paulo (USP) and the State University of Campinas (Unicamp) include targeted investments, strong government policies, international collaborations, and a cultural emphasis on research and development.
 
+### Data Sources
+- QS World University Rankings: [2024](https://www.topuniversities.com/world-university-rankings/2024)
+- Population: [Population Estimates](https://ourworldindata.org/grapher/population-with-un-projections?country=BRA~PRT~AGO~MOZ~CPV~GNB~STP~TLS )
+- GDP per capita: [GDP per Capita](https://ourworldindata.org/grapher/gdp-per-capita-maddison)
+- Poverty: [Share of Population in Extreme Poverty](https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=BRA~PRT )
+- Human Development Index (HDI): [HDI Data](https://ourworldindata.org/grapher/human-development-index)
+- Economic Inequality:[Gini Index](https://ourworldindata.org/grapher/economic-inequality-gini-index?time=2023&country=~BRA)
+- Education Inequality: [Inequality in Education](https://ourworldindata.org/grapher/inequality-in-education)
+- Learning-Adjusted Years of Schooling: [Learning-Adjusted Years of Schooling](https://ourworldindata.org/grapher/learning-adjusted-years-of-school-lays)
+- Government Expenditure on Education: [Government Expenditure](https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp)
+- Research and Development (R&D) Spending: [Research Spending](https://ourworldindata.org/grapher/research-spending-gdp)
+- Scientific Publications: [Scientific and Technical Journal Articles](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles)
+
+
 ## Instructions
 1.	Python Analysis: The Python scripts used for data cleaning, analysis, and visualization are included in the jupyter notebook. Execute these scripts to reproduce the analysis.
 2.	Tableau Dashboards: The Tableau dashboards provide interactive visualizations of the data. Open the .twb files in Tableau to explore the visualizations.
 
-### Data Sources
-QS World University Rankings: [2024](https://www.topuniversities.com/world-university-rankings/2024)
-Population: [Population Estimates](https://ourworldindata.org/grapher/population-with-un-projections?country=BRA~PRT~AGO~MOZ~CPV~GNB~STP~TLS )
-GDP per capita: [GDP per Capita](https://ourworldindata.org/grapher/gdp-per-capita-maddison)
-Poverty: [Share of Population in Extreme Poverty](https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty?tab=chart&country=BRA~PRT )
-Human Development Index (HDI): [HDI Data](https://ourworldindata.org/grapher/human-development-index)
-Economic Inequality:[Gini Index](https://ourworldindata.org/grapher/economic-inequality-gini-index?time=2023&country=~BRA)
-Education Inequality: [Inequality in Education](https://ourworldindata.org/grapher/inequality-in-education)
-Learning-Adjusted Years of Schooling: [Learning-Adjusted Years of Schooling](https://ourworldindata.org/grapher/learning-adjusted-years-of-school-lays)
-Government Expenditure on Education: [Government Expenditure](https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp)
-Research and Development (R&D) Spending: [Research Spending](https://ourworldindata.org/grapher/research-spending-gdp)
-Scientific Publications: [Scientific and Technical Journal Articles](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles)
-
 ### Requirements
-Python 3.x ;
-Tableau Desktop ;
-Libraries: pandas, numpy, matplotlib, seaborn.
+- Python 3
+- Tableau Desktop or Tableau Public 
+- Libraries: pandas, numpy, matplotlib, seaborn, statsmodel
 
 ### How to Run
-1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn
+1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn statsmodels.api
 2.	Execute the Python scripts in the scripts directory.
 3.	Open the [Tableau dashboard](https://public.tableau.com/views/AcademicPerformance_17171028986820/WherearetheTop500UniversitiesintheWorld?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) files to explore the visualizations.
