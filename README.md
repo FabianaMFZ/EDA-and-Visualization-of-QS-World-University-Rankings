@@ -2,6 +2,20 @@
 
 This README accompanies a data analysis project utilizing Python and Tableau to explore the relationship between universities, economic development, and social indicators. The analysis includes various datasets and visualizations to support the findings presented. This analysis aims to provide a comprehensive understanding of the factors contributing to the development of top universities and their impact on economic and social development. For the purposes of this project the rankings were filtered to display only universities at the top 500 positions.
 
+## Instructions
+1.	Python Analysis: The Python scripts used for data cleaning, analysis, and visualization are included in the jupyter notebook. Execute these scripts to reproduce the analysis.
+2.	Tableau Dashboards: The Tableau dashboards provide interactive visualizations of the data. Open the .twb files in Tableau to explore the visualizations.
+
+### Requirements
+- Python 3
+- Tableau Desktop or Tableau Public 
+- Libraries: pandas, numpy, matplotlib, seaborn, statsmodel
+
+### How to Run
+1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn statsmodels.api
+2.	Execute the Python scripts in the scripts directory.
+3.	Open the [Tableau dashboard](https://public.tableau.com/views/AcademicPerformance_17171028986820/WherearetheTop500UniversitiesintheWorld?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) files to explore the visualizations.
+
 ## QS World University Rankings 2024
 The QS World University Rankings is a comprehensive ranking of 1,500 institutions across 104 locations, emphasizing employability and sustainability. The top universities in the world include both public and private institutions, with notable examples in the United States, United Kingdom, Europe, and Asia. In Latin America, top universities are predominantly public institutions.
 
@@ -63,20 +77,6 @@ Brazil's case demonstrates how emerging economies can develop high-ranking unive
 - Correlations matrix was performed again and we could see new correlations:
 After the ranking scores AR - Academic Reputation, ER - Employer Reputation, GER - Employment outcomes, SUS – Sustainability, and CPF - Citations per Faculty
 the indicators that are more highly correlated to the maximum overall_scores of a country are the percentage of GDP spent in research and development, followed by IRN - International Research Network, ISR - International Students Ratio, and the researchers_in_r&d_(per_million_people), then we have the  number of articles published in Scientific and technical journals and the HDI; FSR (Faculty Student Ratio), IFR (International Faculty Ratio) and learning-adjusted_years_of_school come only after these; GDP per capita and population seem to be somewhat correlated to the scores as well. Meaning that, the higher the above indicators, the higher the maximum overall_score of a country. Also, the lower the inequality_in_education the higher the maximum score. Percentage of population in poverty, expenditure estimates in education, literacy_estimates and the gini_coefficient (economic inequality) are very low correlated to the overall_scores.
-
-## Instructions
-1.	Python Analysis: The Python scripts used for data cleaning, analysis, and visualization are included in the jupyter notebook. Execute these scripts to reproduce the analysis.
-2.	Tableau Dashboards: The Tableau dashboards provide interactive visualizations of the data. Open the .twb files in Tableau to explore the visualizations.
-
-### Requirements
-- Python 3
-- Tableau Desktop or Tableau Public 
-- Libraries: pandas, numpy, matplotlib, seaborn, statsmodel
-
-### How to Run
-1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn statsmodels.api
-2.	Execute the Python scripts in the scripts directory.
-3.	Open the [Tableau dashboard](https://public.tableau.com/views/AcademicPerformance_17171028986820/WherearetheTop500UniversitiesintheWorld?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) files to explore the visualizations.
 
 ### Data Sources
 - QS World University Rankings: [2024](https://www.topuniversities.com/world-university-rankings/2024)
