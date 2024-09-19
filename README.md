@@ -15,6 +15,9 @@ This README accompanies a data analysis project utilizing Python and Tableau to 
 1.	Install the required Python libraries: pip install pandas numpy matplotlib seaborn statsmodels.api
 2.	Execute the Python scripts in the scripts directory.
 3.	Open the [Tableau dashboard](https://public.tableau.com/views/AcademicPerformance_17171028986820/WherearetheTop500UniversitiesintheWorld?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) files to explore the visualizations.
+4.	For an End-to-End analysis, read my [post on Medium platform](https://medium.com/@fabianamfz/end-to-end-data-analysis-and-visualization-project-ba16fedfc0ab)
+
+![Captura de ecrã 2024-07-15 112129](https://github.com/user-attachments/assets/2ca4a4ef-5582-40f9-a3cf-a32f58b3bcb2)
 
 ## QS World University Rankings 2024
 The QS World University Rankings is a comprehensive ranking of 1,500 institutions across 104 locations, emphasizing employability and sustainability. The top universities in the world include both public and private institutions, with notable examples in the United States, United Kingdom, Europe, and Asia. In Latin America, top universities are predominantly public institutions.
